@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Inscrição do Torneio</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+
+<h1>Torneio Mata-Mata</h1>
+<p>Inscreva os times abaixo. Quando todos estiverem cadastrados, gere o chaveamento.</p>
+
+<div id="cadastro">
+    <input type="text" id="time" placeholder="Nome do Time">
+    <button onclick="adicionarTime()">Cadastrar Time</button>
+</div>
+
+<h2>Times Inscritos:</h2>
+<ul id="listaTimes"></ul>
+
+<button id="btnChaveamento" onclick="gerarChaveamento()">Gerar Chaveamento</button>
+
+</body>
+</html>
